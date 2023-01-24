@@ -110,12 +110,28 @@ nav {
 
 /* MAIN STYLE */
 
-/* section */
+/* section main style */
+
+section {
+    padding: 4% 0;
+}
+
+.whiteback {
+    background-color: white;
+}
+
+.grayback {
+    background-color: rgb(246, 246, 246);
+}
 
 .row {
     width: 80%;
     margin: auto;
     display: flex;
+}
+
+.even {
+    flex-direction: row-reverse;
 }
 
 .text {
@@ -128,7 +144,7 @@ nav {
 
 }
 
-/* section details */
+/* section details style */
 
 .text-container h3{
     font-size: 40px;
