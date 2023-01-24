@@ -12,8 +12,8 @@ body {
 /* HEADER STYLE */
 
 header {
-    padding: 1% 0;
-    background-color: rgb(53, 93, 225);
+    padding: 1% 0 7% 0;
+    background-size: cover;
 }
 
 /* topbar */
@@ -66,12 +66,8 @@ nav {
 
 /* jumbobar */
 
-#jumbobar {
-    width: 100%;
-}
-
 .jumbo-section {
-    width: 70%;
+    width: 50%;
     margin: auto;
     text-align: center;
     padding-top: 8%;
@@ -79,18 +75,20 @@ nav {
 }
 
 .jumbo-section h1 {
-    padding-bottom: 2%;
+    padding-bottom: 3%;
 }
 
 .jumbo-section p {
-    padding-bottom: 2%;
+    padding-bottom: 3%;
+    font-size: 18px;
+    font-weight: 300;
 }
 
 #jumbutton {
     width: 100%;
     display: flex;
     justify-content: center;
-    gap: 1%;
+    gap: 5%;
     margin-bottom: 5%;
 }
 
@@ -99,7 +97,10 @@ nav {
     border-radius: 15px;
     padding: 10px;
     border: none;
-    font-size: 15px;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #jumbutton .second {
