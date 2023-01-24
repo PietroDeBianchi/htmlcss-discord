@@ -160,7 +160,7 @@ h3{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-bottom: 5%;
+    padding-bottom: 4%;
 }
 
 .lastbutton {
@@ -173,3 +173,49 @@ h5 {
     font-size: 20px;
 }
 
+
+/* FOOTER STYLE */
+
+footer {
+    background-color: rgb(36, 39, 42);
+    padding-top: 3%;
+    /* debug */
+    height: 600px;
+}
+
+#footercontainer {
+    width: 80%;
+    margin: auto;
+}
+
+#social-column {
+    width: 18%;
+}
+
+#resource-column {
+    width: 82;
+    display: flex;
+}
+
+/* footer social column style */
+#social-column h5 {
+    color: rgb(118, 136, 212);
+}
+
+#language {
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+}
+
+#language img {
+    width: 30px;
+    margin-right: 6px;
+}
+
+#language span {
+    color: white;
+}
+
+
+/* footer resource column style */
