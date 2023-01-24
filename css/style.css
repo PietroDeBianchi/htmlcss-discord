@@ -58,7 +58,7 @@ nav {
 
 #top-login a {
     flex-shrink: 0; 
-    padding: 5px 7px;
+    padding: 5px 8px;
     background-color: white;
     border-radius: 15px;
     text-decoration: none;
@@ -66,7 +66,7 @@ nav {
 
 /* jumbobar */
 
-.jumbo-section {
+#jumbo-section {
     width: 50%;
     margin: auto;
     text-align: center;
@@ -74,11 +74,11 @@ nav {
     color: white;
 }
 
-.jumbo-section h1 {
+#jumbo-section h1 {
     padding-bottom: 3%;
 }
 
-.jumbo-section p {
+#jumbo-section p {
     padding-bottom: 3%;
     font-size: 18px;
     font-weight: 300;
@@ -106,5 +106,37 @@ nav {
 #jumbutton .second {
     background-color: rgb(36, 39, 42);
     color: white;
+}
+
+/* MAIN STYLE */
+
+/* section */
+
+.row {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}
+
+.text-container {
+    width: 70%;
+
+}
+
+/* section details */
+
+.text-container h3{
+    font-size: 40px;
+    padding-bottom: 8%;
+}
+
+.text-container p {
+    font-size: 16px;
+    line-height: 22px;
 }
 
