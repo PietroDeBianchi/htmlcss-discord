@@ -65,7 +65,6 @@ nav {
 }
 
 /* jumbobar */
-
 #jumbo-section {
     width: 50%;
     margin: auto;
@@ -92,7 +91,7 @@ nav {
     margin-bottom: 5%;
 }
 
-#jumbutton button {
+button {
     background-color: white;
     border-radius: 15px;
     padding: 10px;
@@ -103,7 +102,7 @@ nav {
     font-family: 'Open Sans', sans-serif;
 }
 
-#jumbutton .second {
+#jumbutton .browbutton{
     background-color: rgb(36, 39, 42);
     color: white;
 }
@@ -111,8 +110,8 @@ nav {
 /* MAIN STYLE */
 
 /* section main style */
-
 section {
+    width: 100%;
     padding: 4% 0;
 }
 
@@ -145,14 +144,32 @@ section {
 }
 
 /* section details style */
-
-.text-container h3{
+h3{
     font-size: 40px;
-    padding-bottom: 8%;
+    padding-bottom: 30px;
 }
 
 .text-container p {
     font-size: 16px;
     line-height: 22px;
+}
+
+
+/* last section style */
+.last-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.lastbutton {
+    margin-top: 2%;
+    color: white;
+    background-color: rgb(118, 136, 212);
+}
+
+h5 {
+    font-size: 20px;
 }
 
