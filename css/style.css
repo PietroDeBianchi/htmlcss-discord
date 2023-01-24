@@ -1,3 +1,4 @@
+/* COMMON PROPERTIES  */
 * {
     padding: 0;
     margin: 0;
@@ -7,6 +8,15 @@
 body {
     font-family: 'Fredoka One', cursive;
     font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
 
 /* HEADER STYLE */
@@ -39,12 +49,9 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    list-style-type: none;
 }
 
 #nav-link a {
-    text-decoration: none;
-    color: white;
     font-weight: 600;
 }
 
@@ -179,13 +186,12 @@ h5 {
 footer {
     background-color: rgb(36, 39, 42);
     padding-top: 3%;
-    /* debug */
-    height: 600px;
 }
 
 #footercontainer {
     width: 80%;
     margin: auto;
+    display: flex;
 }
 
 #social-column {
@@ -193,29 +199,60 @@ footer {
 }
 
 #resource-column {
-    width: 82;
+    width: 82%;
     display: flex;
 }
 
 /* footer social column style */
+
 #social-column h5 {
+    font-size: 20px;
     color: rgb(118, 136, 212);
 }
 
 #language {
     display: flex;
     align-items: center;
-    margin-top: 4%;
+    margin-top: 6%;
 }
 
 #language img {
-    width: 30px;
+    width: 25px;
     margin-right: 6px;
 }
 
 #language span {
+    font-size: 12px;
     color: white;
 }
 
+#social-list {
+    width: 70%;
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+li i {
+    color: white;
+    font-size: 20px;
+}
 /* footer resource column style */
+#resource-column {
+    display: flex;
+    justify-content: space-around;
+}
+
+.resource-list li {
+    padding: 3.5% 0;
+}
+
+.resource-list a {
+    font-size: 12px;
+}
+
+h6 {
+    color: rgb(118, 136, 212);
+    font-size: 14px;
+}
