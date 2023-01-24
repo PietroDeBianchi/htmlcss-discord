@@ -68,7 +68,6 @@ nav {
     padding: 5px 8px;
     background-color: white;
     border-radius: 15px;
-    text-decoration: none;
 }
 
 /* jumbobar */
@@ -192,6 +191,7 @@ footer {
     width: 80%;
     margin: auto;
     display: flex;
+    margin-bottom: 2%;
 }
 
 #social-column {
@@ -204,7 +204,6 @@ footer {
 }
 
 /* footer social column style */
-
 #social-column h5 {
     font-size: 20px;
     color: rgb(118, 136, 212);
@@ -238,6 +237,7 @@ li i {
     color: white;
     font-size: 20px;
 }
+
 /* footer resource column style */
 #resource-column {
     display: flex;
@@ -255,4 +255,22 @@ li i {
 h6 {
     color: rgb(118, 136, 212);
     font-size: 14px;
+}
+
+/* chiusura del footer */
+#end-rule {
+    width: 80%;
+    margin: auto;
+    padding: 1% 0 3% 0;
+    border-top: 1px solid rgb(118, 136, 212);
+    display: flex;
+    justify-content: space-between;
+}
+
+#registrati {
+    align-self: center;
+    background-color: rgb(118, 136, 212);
+    border-radius: 15px;
+    padding: 5px 8px;
+    font-size: 15px;
 }
