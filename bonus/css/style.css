@@ -1,0 +1,277 @@
+/* COMMON PROPERTIES  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* HEADER STYLE */
+
+header {
+    padding: 1% 0 7% 0;
+    background-size: cover;
+}
+
+/* topbar */
+#topbar {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* toplogo */
+#top-logo {
+    width: 25%;
+}
+
+/* nav */
+nav {
+    width: 50%;
+}
+
+#nav-link {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav-link a {
+    font-weight: 600;
+}
+
+/* login */
+#top-login {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#top-login a {
+    flex-shrink: 0; 
+    padding: 5px 8px;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+}
+
+/* jumbobar */
+#jumbo-section {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 8%;
+    color: white;
+}
+
+#jumbo-section h1 {
+    padding-bottom: 3%;
+}
+
+#jumbo-section p {
+    padding-bottom: 3%;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#jumbutton {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    margin-bottom: 5%;
+}
+
+button {
+    background-color: white;
+    border-radius: 15px;
+    padding: 12px;
+    border: none;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#jumbutton .browbutton{
+    background-color: rgb(36, 39, 42);
+    color: white;
+}
+
+/* MAIN STYLE */
+
+/* section main style */
+section {
+    width: 100%;
+    padding: 4% 0;
+}
+
+.whiteback {
+    background-color: white;
+}
+
+.grayback {
+    background-color: rgb(246, 246, 246);
+}
+
+.row {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.even {
+    flex-direction: row-reverse;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+}
+
+.text-container {
+    width: 70%;
+
+}
+
+/* section details style */
+h3{
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+
+.text-container p {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+
+/* last section style */
+.last-container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 4%;
+}
+
+.lastbutton {
+    margin-top: 2%;
+    color: white;
+    background-color: rgb(118, 136, 212);
+}
+
+h5 {
+    font-size: 20px;
+}
+
+
+/* FOOTER STYLE */
+
+footer {
+    background-color: rgb(36, 39, 42);
+    padding-top: 3%;
+}
+
+#footercontainer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin-bottom: 2%;
+}
+
+#social-column {
+    width: 18%;
+}
+
+#resource-column {
+    width: 82%;
+    display: flex;
+}
+
+/* footer social column style */
+#social-column h5 {
+    font-size: 20px;
+    color: rgb(118, 136, 212);
+}
+
+#language {
+    display: flex;
+    align-items: center;
+    margin-top: 6%;
+}
+
+#language img {
+    width: 25px;
+    margin-right: 6px;
+}
+
+#language span {
+    font-size: 12px;
+    color: white;
+}
+
+#social-list {
+    width: 70%;
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li i {
+    color: white;
+    font-size: 20px;
+}
+
+/* footer resource column style */
+#resource-column {
+    display: flex;
+    justify-content: space-around;
+}
+
+.resource-list li {
+    padding: 3.5% 0;
+}
+
+.resource-list a {
+    font-size: 12px;
+}
+
+h6 {
+    color: rgb(118, 136, 212);
+    font-size: 14px;
+}
+
+/* chiusura del footer */
+#end-rule {
+    width: 80%;
+    margin: auto;
+    padding: 1% 0 3% 0;
+    border-top: 1px solid rgb(118, 136, 212);
+    display: flex;
+    justify-content: space-between;
+}
+
+#registrati {
+    align-self: center;
+    background-color: rgb(118, 136, 212);
+    border-radius: 15px;
+    padding: 5px 8px;
+    font-size: 15px;
+}
